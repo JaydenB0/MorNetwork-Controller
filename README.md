@@ -1,6 +1,9 @@
 # MorNetwork Controller (MNC)
 MorNetwork Controller is a tool that helps facilitate the installation and management of the platform created by MorTorq Team 1515 (FIRST Robotics Team).
 # Installation
+
+Install NVM on your computer and make sure the command ```nvm``` runs properly.
+
 To install the MNC, run this command in Linux.
 
 ```git clone https://github.com/JaydenB0/MorNetwork-Controller.git```
