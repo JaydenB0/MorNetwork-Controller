@@ -3,6 +3,7 @@ if [ ! `dirname $0` = '.' ]
 then
 	cd `dirname $0`
 fi
+nvm install 6.10.0
 nvm use 6.10.0
 
 # Ask user for installation
