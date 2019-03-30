@@ -29,11 +29,11 @@ do
 			cd ../..
 			;;
 		2)
-			if [[ ! -d 'MorServer/morteam-server-website' ]];
+			if [[ ! -d 'MorServer/morteam-server' ]];
 			then
-				git clone https://github.com/mortorqrobotics/morteam-server-website.git MorServer/morteam-server-website
+				git clone https://github.com/mortorqrobotics/morteam-server.git MorServer/morteam-server
 			fi
-			cd MorServer/morteam-server-website
+			cd MorServer/morteam-server
 			git pull
 			npm install
 			cd ..
