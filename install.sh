@@ -3,8 +3,13 @@ if [ ! `dirname $0` = '.' ]
 then
 	cd `dirname $0`
 fi
-nvm install 11.12.0
-nvm use 11.12.0
+
+. ~/.nvm/nvm.sh
+. ~/.profile
+. ~/.bashrc
+
+nvm.sh install 11.12.0
+nvm.sh use 11.12.0
 
 # Ask user for installation
 clear
