@@ -3,8 +3,8 @@ if [ ! `dirname $0` = '.' ]
 then
 	cd `dirname $0`
 fi
-nvm install 6.10.0
-nvm use 6.10.0
+nvm install 11.12.0
+nvm use 11.12.0
 
 # Ask user for installation
 clear
