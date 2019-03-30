@@ -3,6 +3,8 @@ MorNetwork Controller is a tool that helps facilitate the installation and manag
 # Installation
 
 Install NVM on your computer and make sure the command ```nvm``` runs properly.
+Along with that, install MongoDB and make sure ```mongod``` runs without any errors such as the absence of /data/db.
+Run with NPM version 6.4.1.
 
 To install the MNC, run this command in Linux.
 
