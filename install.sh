@@ -1,18 +1,14 @@
+clear
 # CD to Repo
 if [ ! `dirname $0` = '.' ]
 then
 	cd `dirname $0`
 fi
 
-. ~/.nvm/nvm.sh
-. ~/.profile
-. ~/.bashrc
-
-nvm.sh install 11.12.0
-nvm.sh use 11.12.0
+[ -s "$HOME/.nvm/nvm.sh" ] && source "$HOME/.nvm/nvm.sh" && nvm install 11.12.0
+[ -s "$HOME/.nvm/nvm.sh" ] && source "$HOME/.nvm/nvm.sh" && nvm use 11.12.0
 
 # Ask user for installation
-clear
 cmd=(dialog --separate-output --checklist "Select options:" 22 76 16)
 options=(1 "MorNetwork" on
          2 "MorTeam" off
