@@ -8,7 +8,7 @@ Run with NPM version 6.4.1.
 
 To install the MNC, run this command in Linux.
 
-```git clone https://github.com/JaydenB0/mornetwork-controller.git```
+```git clone https://github.com/mortorqrobotics/mornetwork-controller.git```
 
 After that, to install the MorTeam platform, run this command and select the appropriate packages that you want to utilize.
 
