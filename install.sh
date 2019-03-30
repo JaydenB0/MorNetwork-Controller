@@ -5,8 +5,13 @@ then
 	cd `dirname $0`
 fi
 
-[ -s "$HOME/.nvm/nvm.sh" ] && source "$HOME/.nvm/nvm.sh" && nvm install 11.12.0
-[ -s "$HOME/.nvm/nvm.sh" ] && source "$HOME/.nvm/nvm.sh" && nvm use 11.12.0
+export NVM_DIR=$HOME/.nvm;
+source $HOME/.nvm/nvm.sh;
+
+node --version
+nvm install 11.12.0
+nvm use 11.12.0
+node --version
 
 # Ask user for installation
 cmd=(dialog --separate-output --checklist "Select options:" 22 76 16)
